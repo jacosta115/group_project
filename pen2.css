@@ -1,0 +1,261 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+#header {
+    width: 100%;
+    /*border: 3px solid black;*/
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    font-size: 48px;
+    margin: 0px;
+    font-family: 'Satisfy', cursive;
+    color: darkgreen;
+    background-image: url(Veggy.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    z-index: 3;
+
+    }
+
+
+
+
+
+#menu {
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    display: block;
+    position: fixed;
+    top:70px;
+    background-color: darkorange;
+    z-index: 2;
+    
+}
+
+
+
+.buttons {
+    /*background-color: bisque;*/
+    width: 80px;
+    text-align: center;
+    margin: 0px 40px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    font-family: sans-serif;
+    color: white;
+ }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:links {
+    color: yellow;
+    text-decoration: none;
+    
+}
+
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:chartreuse;
+}
+
+
+a:active {
+    color: yellow;
+    text-decoration: none;
+}
+/*#body {
+    top: 60px;
+    border: 2px solid black;
+    background-color: darkgray;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+    z-index: -2;
+    
+}*/
+ 
+#body {
+    background-color: lawngreen;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: fixed;
+}
+
+
+#footer {
+    width: 100%;
+    height: 70px;
+    /*border: 3px solid black;*/
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    bottom: 0px;
+    border-top-color: darkorange;
+    border-top-width: 10px;
+    border-top-style: solid;
+    
+    }
+
+.footer {
+    margin: 0px;
+    text-align: center;
+    width: 35%;
+    height: 70px;
+  
+}
+
+
+#dishes {
+    width: 300px;
+    height: 430px;
+    border: 3px solid darkorange;
+    margin-top: 110px;
+    margin-left: 35px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    position: fixed;
+    font-size:42px;
+    background-color: darkgreen;
+}
+
+.pics {
+    width: 200px;
+    height: 80px;
+    margin-top: -5px;
+    margin-right: 20px;
+    margin-left:50px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+#content {
+    width: 800px;
+    height: 440px;
+    /*border: 2px solid white;*/
+    margin-top: 130px;
+    margin-right: 35px;
+    /*padding-top: 10px;*/
+    color: black;
+    background-color: white;
+    /*text-align: center;*/
+    display: inline-block;
+    right: 0px;
+    position: fixed;
+    font-family: sans-serif;
+   
+   
+}
+
+.guac {
+    width: 800px;
+    height: 190px;
+    margin-top:-5px;
+    border-top-color: darkorange;
+    border-top-width: 10px;
+    border-top-style: solid;
+
+}
+
+#content p {
+     margin-top: 0px;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+#content .info {
+     margin-top: -10px;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom:0px;
+ 
+}
+
+.hello {
+    font-size: 50px;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    background-color: white;
+    color: darkorange;
+    }
+
+img {
+     width: 200px;
+    height: 80px;
+   
+}
+#content ul {
+   list-style-type:none;
+}
+
+
+li {
+    color: black;
+    font-size: 14px;
+    padding: 3px;
+}
+
+#header a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+#content .map {
+    right: 0px;
+    display:inline-block;
+    position: absolute;
+    margin-right: 95px;
+    bottom: 40px;
+    
+
+}
+
+.social {
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    margin-left:  10px;
+   margin-top: 8px;
+}
+#content .basket {
+    width: 450px;
+    height: 200px;
+    padding-top: 7px;
+}
+
+#content .bucket {
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+#content .harvest {
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+}
